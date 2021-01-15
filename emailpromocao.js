@@ -12,6 +12,7 @@
  *      - davi.silva@dextra-sw.com
  *
  * versions:
+ * v4, November, 2020
  * v3, July 7th, 2020
  * v2, October, 9th, 2019
  */
