@@ -41,16 +41,16 @@ function sendEmailPromocao() {
     var ui = SpreadsheetApp.getUi();
 
     var emailIntro = "";        // 1st column   "Car@s,oa promoção de..."
-    var nameDextrano = "";        // 2nd column   "NOME "  
-    var emailResumo1 = "";        // 3rd column   "foi aprovada. A promoção será refletida..."
-    var emailResumo2 = "";        // 4rd column   "foi aprovada. A promoção será refletida..."  
-    var currentPosition = "";        // 5th column   "Analista de Software Jr/Pl/Sr/..."
-    var newPosition = "";        // 6th column   "Analista de Software Jr/Pl/Sr/..."
-    var valueAdd = "";        // 7th column    Additional benefits ("basket") 
+    var nameDextrano = "";      // 2nd column   "NOME "  
+    var emailResumo1 = "";      // 3rd column   "foi aprovada. A promoção será refletida..."
+    var emailResumo2 = "";      // 4rd column   "foi aprovada. A promoção será refletida..."  
+    var currentPosition = "";   // 5th column   "Analista de Software Jr/Pl/Sr/..."
+    var newPosition = "";       // 6th column   "Analista de Software Jr/Pl/Sr/..."
+    var valueAdd = "";          // 7th column    Additional benefits ("basket") 
     //---
-    var emailManager = "";        // 8th column
+    var emailManager = "";       // 8th column
     var emailMentor = "";        // 9th column
-    var emailTribe = "";        // 10th column 
+    var emailTribe = "";         // 10th column 
     //---
     var detailPromotion = "";        // Current Role, 
 
